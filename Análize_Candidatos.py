@@ -25,7 +25,7 @@ if escolaridade == "médio" and nota >= 9:
 elif escolaridade != "médio":
     status = "Escolaridade inválida"
 else:
-    status = "Candidato precisa de mais preparação"
+    status = "Candidato precisa de mais preparação."
 
 if cidade == "outra" and trabalhar == "N":
     status = "Não pode seguir para a vaga presencial"
